@@ -27,8 +27,8 @@ This README provides a concise overview of what we have accomplished in this pro
 
 ---
 ### 1. Problem Formulation
-**Our Dataset:** Airbnb for Boston with fraud detection
-**Our Question:** How do we identify whether an Airbnb listing is a scam?
+**Our Dataset:** Airbnb for Boston with fraud detection<br/>
+**Our Question:** How do we identify whether an Airbnb listing is a scam?<br/>
 **Rationale:** We believe that this dataset as well as the question we pose is critically relevant in today's context. When going overseas, we usually opt to rent houses/apartments instead of booking hotel rooms since the earlier alternative is more cheaper, and valuable. Unfortunately, the scammers know that too, and thus, exploit us. People are left stranded and financially impacted. According to a survey conducted by Dwellsy, it is estimated that annual losses resulting from rental fraud could reach a staggering $16.1 billion. That’s not a small amount, and many people fall for this trick. By being able to properly identify a scam, we might be able to avoid unnecessary losses.
 
 
