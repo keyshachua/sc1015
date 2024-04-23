@@ -72,8 +72,8 @@ The reasons for this are:
 - **`K-Nearest Neighbours (KNN)`**: Chosen for its ability to adapt quickly to changes, which is ideal in a dynamic marketplace like Airbnb. KNN is a non-parametric method that we used to capture the intuition that similar listings (in terms of features) often have similar legitimacy.
 
 In general, in this section, we mainly focused on:
-- Model Training: Train each model on the training dataset.
-- Model Evaluation: Evaluate the models using appropriate metrics such as accuracy, precision, recall, and F1-score to determine each model’s effectiveness in detecting fraudulent listings. Visualise these results with a confusion matrix.
+- **`Model Training`**: Train each model on the training dataset.
+- **`Model Evaluation`**: Evaluate the models using appropriate metrics such as accuracy, precision, recall, and F1-score to determine each model’s effectiveness in detecting fraudulent listings. Visualise these results with a confusion matrix.
 (**Parameters were chosen using Cross-Validation, GridSearchCV)
 
 Analysing the results of the various models has helped us identify the best-performing model based on the defined metrics, thereby guiding future decisions on model deployment for scam detection. 
