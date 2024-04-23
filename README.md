@@ -82,6 +82,7 @@ That model is **`Decision Tree`**.
 
 ### 5. Data Driven Insights & Conclusion
 In this section, we gathered insights through the model analysis.
+
 **`Feature Importance`** : How much each feature contributed towards the decision tree model in predicting for fake/real listings.
 The feature that contributed most to Decision Tree is : number_of_reviews.
 
