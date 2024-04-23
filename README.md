@@ -77,11 +77,21 @@ In general, in this section, we mainly focused on:
 (**Parameters were chosen using Cross-Validation, GridSearchCV)
 
 Analysing the results of the various models has helped us identify the best-performing model based on the defined metrics, thereby guiding future decisions on model deployment for scam detection. 
-That model is **`Random Forest`**.
+That model is **`Decision Tree`**.
 
 
 ### 5. Data Driven Insights & Conclusion
-Hihi
+In this section, we gathered insights through the model analysis.
+**`Feature Importance`** : How much each feature contributed towards the decision tree model in predicting for fake/real listings.
+The feature that contributed most to Decision Tree is : number_of_reviews.
+
+We also dived into analysing the features we used to see what insights we could discover.
+
+In conclusion we learnt:
+- How to apply different varieties of Machine Learning Models for a specific problem
+- Importance of Data Quality for model training
+- Different ways to improve our model’s performance
+- Variety of ways to interpret a model’s performance
 
 
 ### 6. References
