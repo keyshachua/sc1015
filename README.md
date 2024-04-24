@@ -102,4 +102,5 @@ In conclusion we learnt:
 [https://www.kaggle.com/datasets/hawkingcr/airbnb-for-boston-with-fraud-detection](https://www.kaggle.com/datasets/hawkingcr/airbnb-for-boston-with-fraud-detection)
 [https://commercialobserver.com/2023/07/rental-fraud-housing-rentspree/#:~:text=The%20survey%20findings%20show%20that,billion%2C%20according%20to%20the%20survey.](https://commercialobserver.com/2023/07/rental-fraud-housing-rentspree/#:~:text=The%20survey%20findings%20show%20that,billion%2C%20according%20to%20the%20survey.)
 [https://www.rentalscaleup.com/study-of-127183-airbnb-guest-complaints-what-we-learned-and-what-we-didnt/](https://www.rentalscaleup.com/study-of-127183-airbnb-guest-complaints-what-we-learned-and-what-we-didnt/)
+https://www.rentalscaleup.com/study-of-127183-airbnb-guest-complaints-what-we-learned-and-what-we-didnt/
 
