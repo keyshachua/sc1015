@@ -27,8 +27,10 @@ This README provides a concise overview of what we have accomplished in this pro
 
 ---
 ### 1. Problem Formulation
-**Our Dataset:** Airbnb for Boston with fraud detection<br/>
-**Our Question:** How do we identify whether an Airbnb listing is a scam?<br/>
+**Our Dataset:** Airbnb for Boston with fraud detection
+
+**Our Question:** How do we identify whether an Airbnb listing is a scam?
+
 **Rationale:** We believe that this dataset as well as the question we pose is critically relevant in today's context. When going overseas, we usually opt to rent houses/apartments instead of booking hotel rooms since the earlier alternative is more cheaper, and valuable. Unfortunately, the scammers know that too, and thus, exploit us. People are left stranded and financially impacted. According to a survey conducted by Dwellsy, it is estimated that annual losses resulting from rental fraud could reach a staggering $16.1 billion. That’s not a small amount, and many people fall for this trick. By being able to properly identify a scam, we might be able to avoid unnecessary losses.
 
 
@@ -36,17 +38,17 @@ This README provides a concise overview of what we have accomplished in this pro
 
 ### 2. Data Preparation and Cleaning
 In this section of our project, we prepared and cleaned our dataset to ensure that it could be effectively utilized for data analysis and applied in machine learning models later in the project. Our data cleaning process aimed to address potential issues and refine the dataset for better accuracy in detecting Airbnb listing scams. Here's a comprehensive overview of the steps we undertook:
-1. Data Assessment:
-- Examining Data Types: We evaluated the data types of each column with **`airbnb_data.dtypes`**. to ensure they were appropriate for our analysis.
-- Identifying Unique Entries: We used **`airbnb_data.nunique()`** to determine the uniqueness of the entries, which helped in understanding the diversity of the data.
-- Checking for Duplicates: We found 36 duplicated rows using **`airbnb_data.duplicated().sum()`**. These duplicates were critically assessed to determine their impact on our scam detection analysis.
-2. Handling Duplicates:
-- Reviewing Duplicated Rows: We isolated and reviewed the duplicated rows using **`airbnb_data[airbnb_data.duplicated()]`** to understand their characteristics.
-- Decision on Duplicates: After careful consideration, we decided to retain these duplicated rows. Our rationale was that multiple listings might indicate a higher possibility of fraudulent activity, which is central to our analysis.
-3. Data Structuring for Analysis:
-- Feature Selection: As of now, we selected all 20 variables except for **`Fraud`** as features, with **`Fraud`** as the predictor.
-4. Descriptive Statistics:
-- Summary Statistics: We generated descriptive statistics for the features using **`features.describe()`** to gain insights into the central tendency and variability of our data.
+1. **`Data Assessment`**:
+- **`Examining Data Types`**: We evaluated the data types of each column with **`airbnb_data.dtypes`**. to ensure they were appropriate for our analysis.
+- **`Identifying Unique Entries`**: We used **`airbnb_data.nunique()`** to determine the uniqueness of the entries, which helped in understanding the diversity of the data.
+- **`Checking for Duplicates`**: We found 36 duplicated rows using **`airbnb_data.duplicated().sum()`**. These duplicates were critically assessed to determine their impact on our scam detection analysis.
+2. **`Handling Duplicates`**:
+- **`Reviewing Duplicated Rows`**: We isolated and reviewed the duplicated rows using **`airbnb_data[airbnb_data.duplicated()]`** to understand their characteristics.
+- **`Decision on Duplicates`**: After careful consideration, we decided to retain these duplicated rows. Our rationale was that multiple listings might indicate a higher possibility of fraudulent activity, which is central to our analysis.
+3. **`Data Structuring for Analysis`**:
+- **`Feature Selection`**: As of now, we selected all 20 variables except for **`Fraud`** as features, with **`Fraud`** as the predictor.
+4. **`Descriptive Statistics`**:
+- **`Summary Statistics`**: We generated descriptive statistics for the features using **`features.describe()`** to gain insights into the central tendency and variability of our data.
   
 This methodical approach to data preparation has set a robust foundation for the subsequent phases of our analysis, where these clean and structured datasets will be utilised to build and evaluate models for detecting fraudulent Airbnb listings.
 
