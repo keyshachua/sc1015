@@ -29,7 +29,7 @@ This README provides a concise overview of what we have accomplished in this pro
 
 
 ---
-### 1. Problem Formulation
+### 1. Problem Formulation (Keysha & Shaqilah)
 **Our Dataset:** Airbnb for Boston with fraud detection
 
 **Our Question:** How do we identify whether an Airbnb listing is a scam?
@@ -39,7 +39,7 @@ This README provides a concise overview of what we have accomplished in this pro
 
 
 
-### 2. Data Preparation and Cleaning
+### 2. Data Preparation and Cleaning (Keysha)
 In this section of our project, we prepared and cleaned our dataset to ensure that it could be effectively utilized for data analysis and applied in machine learning models later in the project. Our data cleaning process aimed to address potential issues and refine the dataset for better accuracy in detecting Airbnb listing scams. Here's a comprehensive overview of the steps we undertook:
 1. **`Data Assessment`**:
 - **`Examining Data Types`**: We evaluated the data types of each column with **`airbnb_data.dtypes`**. to ensure they were appropriate for our analysis.
@@ -55,15 +55,15 @@ In this section of our project, we prepared and cleaned our dataset to ensure th
   
 This methodical approach to data preparation has set a robust foundation for the subsequent phases of our analysis, where these clean and structured datasets will be utilised to build and evaluate models for detecting fraudulent Airbnb listings.
 
-### 3. Exploratory Data Analysis
+### 3. Exploratory Data Analysis (Keysha & Shaqilah)
 In order to better understand our data, we printed out some visualisation. Are there any patterns? Are there any valuable relationships between the predictor and the responses? What can we deduce from all these visualisations?
 To achieve our analysis objectives, we did the following:
 - Explored **`Correlation Matrix`** : To better understand the relationships between different features.
-- Explored **`Principal Component Analysis (PCA)`** : To reduce dimensionality and identify the most significant feature
+- Explored **`Principal Component Analysis (PCA) & SelectkBest**` : To reduce dimensionality and identify the most significant feature
 - Explored **`Resampling`** : To avoid data leaking and overfitting as current existing dataset was imbalanced
 For further findings and explanations, please refer to the Jupyter Notebook on EDA.
 
-### 4. Models
+### 4. Models (Shaqilah)
 With the 8 columns (derived from PCA and our understanding) as well as applied weighted accuracy, we then trained various models:
 - **`Decision Tree`**
 - **`Random Forest`**
@@ -85,7 +85,7 @@ Analysing the results of the various models has helped us identify the best-perf
 That model is **`Decision Tree`**.
 
 
-### 5. Data Driven Insights & Conclusion
+### 5. Data Driven Insights & Conclusion (Keysha)
 In this section, we gathered insights through the model analysis.
 
 **`Feature Importance`** : How much each feature contributed towards the decision tree model in predicting for fake/real listings.
